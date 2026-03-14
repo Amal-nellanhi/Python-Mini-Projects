@@ -30,3 +30,20 @@ def numgen():
     a=random.randint(1,50)
     b=random.randint(1,50)
     return a,b
+score=0
+count=0
+choice=""
+while True:
+    a,b=numgen()
+    print("Question ",count+1,": ",a,"x",b," = ?")
+    choice=input("Your answer: ")
+    if choice=="exit":
+        print("\n")
+        break
+    if int(choice)==a*b:
+        print("Correct!\n")
+        score+=1
+    else:
+        print("Wrong! The correct answer is ",a*b,"\n")
+    count+=1
+print("Final score= ",score,"\n")
