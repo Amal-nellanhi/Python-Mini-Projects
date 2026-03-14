@@ -25,3 +25,8 @@ Type 'exit' to stop the quiz.
 
 Final Score: 1
 """
+import random
+def numgen():
+    a=random.randint(1,50)
+    b=random.randint(1,50)
+    return a,b
