@@ -18,3 +18,5 @@ Sample Output:
 Team 1: Alice, John, David
 Team 2: Bob, Maya
 """
+def random_team():
+      
