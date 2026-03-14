@@ -1,6 +1,6 @@
 """
 Project: Multiplication Quiz Game
-
+Author:Shiva Prasad K Thamban
 Description:
 Create a quiz program that tests the user's multiplication skills.
 
