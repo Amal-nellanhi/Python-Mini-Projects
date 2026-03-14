@@ -1,4 +1,6 @@
-<h1 align = "center">🐍 Python Mini Projects </h1>
+<h1 align = "center">  <b>PYTHON MINI PROJECTS </b> </h1>
+
+![Pyhton-Project-Banner](banner-python.jpeg)
 
 Welcome to the **Python Mini Projects Repository**!  
 This repository contains a collection of **simple beginner-level Python projects** developed by students as part of a learning exercise.
