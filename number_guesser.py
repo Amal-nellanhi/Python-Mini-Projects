@@ -26,3 +26,4 @@ Congratulations! You guessed the number.
 import random
 number=random.randint(1,100)
 print("Guess the number between 1 and 100")
+guess=int(input("Enter your guess:"))
