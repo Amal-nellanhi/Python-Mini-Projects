@@ -23,3 +23,12 @@ Correct!
 
 Final Score: 2/2
 """
+print("Welcome to the Quiz Game")
+score=0
+a=input("1.What is the capital of India?")
+if a.lower()=="delhi":
+    print("Correct")
+    score=score+1
+else:
+    print("wrong")
+    
