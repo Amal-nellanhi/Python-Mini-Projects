@@ -122,7 +122,7 @@ By completing these projects, students will learn:
 
 ---
 
-## ✨ Happy Coding!
+## ✨ Happy Coding!!
 
 Good luck to all students working on these projects.  
 Have fun building your Python programs and exploring GitHub!
