@@ -29,20 +29,22 @@ Enter temperature in Celsius: 25
 
 Temperature in Fahrenheit: 77
 """
-print("temprature converter: ")
-print("1. celsius to fahrenheit")
-print("2.fahrenheit to celsius")
-print("3.exit")
-choice==int(input("enter the chioice: " ))
-if choice==1:
-    c=float(input("enter your temperature in celsius: "))
-    f=(c*(9/5))+32
-    print("temperature in fahrenheit: ",f)
-elif choice==2:
-        f=float(input("enter the temperature in fahrenheit: "))
-        c=(f-32)*(5/9)
-        print("the temperature in celsius: ",c)
-elif choice==3:
-            print("exit")
- else: 
-            print("exit")
+print("Temperature converter: ")
+print("1. Celsius to Fahrenheit")
+print("2. Fahrenheit to Celsius")
+print("3. Exit")
+
+choice = int(input("Enter the choice: "))
+
+if choice == 1:
+    c = float(input("Enter your temperature in Celsius: "))
+    f = (c * (9/5)) + 32
+    print("Temperature in Fahrenheit:", f)
+elif choice == 2:
+    f = float(input("Enter the temperature in Fahrenheit: "))
+    c = (f - 32) * (5/9)
+    print("Temperature in Celsius:", c)
+elif choice == 3:
+    print("Exit")
+else:
+    print("Invalid choice, exiting...")
