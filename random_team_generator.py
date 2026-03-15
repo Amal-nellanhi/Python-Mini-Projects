@@ -19,4 +19,28 @@ Team 1: Alice, John, David
 Team 2: Bob, Maya
 """
 def random_team():
+    import random
+    Names=input("Enter the names seperated by coma(,) : ")
+    namelist=Names.split(",")
+    n=len(namelist)
+    for i in namelist:
+        print(i)
+    print(namelist)
+    print("Number of members : ",n)
+    number_of_Teams=int(input("Enter the number of teams required : "))
+    number_members=n//number_of_Teams
+    print(number_members)
+    random.shuffle(namelist)
+    teams=[[] for _ in range(number_of_Teams)]
+    for i,name in enumerate(namelist):
+        teams[i%number_of_Teams].append(name)
+    for i,term in enumerate(teams,start=1):
+        print(f"Team {i}:{','.join(term)}")
+    
+
+random_team()
+
+    
+    
+    
       
