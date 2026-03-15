@@ -36,5 +36,12 @@ if b=="8":
     print("Correct")
     score=score+1
 else:
-    print("Wrong")        
+    print("Wrong")
+c= input("3. Is Python a programming language ? ")
+if c==programming language:
+    print("Correct answer")
+    score = score + 1
+else:
+    print("Wrong answer")
+
 
