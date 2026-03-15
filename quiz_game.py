@@ -54,7 +54,9 @@ if e == "7":
     print("Correct answer")
     score = score + 1
 else:
-    print("Wrong answer")        
+    print("Wrong answer")   
+print("Quiz Finished")
+print("Your final score is:", score)         
 
 
 
