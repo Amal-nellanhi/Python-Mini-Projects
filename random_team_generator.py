@@ -1,5 +1,6 @@
 """
 Project: Random Team Generator
+Author: Avanthika
 
 Description:
 Create a program that randomly divides people into teams.
