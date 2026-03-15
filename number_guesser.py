@@ -1,6 +1,6 @@
 """
 Project: Number Guessing Game
-Author:Niveditha T Chandran
+Author: Niveditha T Chandran
 
 Description:
 Create a game where the user tries to guess a randomly generated number.
