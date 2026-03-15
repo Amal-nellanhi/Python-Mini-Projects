@@ -1,6 +1,6 @@
 """
 Project: Simple Quiz Game
-
+Author:Revathi M
 Description:
 Create a simple quiz game that asks the user a few questions and calculates the score.
 
