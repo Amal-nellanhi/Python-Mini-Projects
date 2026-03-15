@@ -31,4 +31,10 @@ if a.lower()=="delhi":
     score=score+1
 else:
     print("wrong")
-    
+b=input("2.What is 5+3?")
+if b=="8":
+    print("Correct")
+    score=score+1
+else:
+    print("Wrong")        
+
