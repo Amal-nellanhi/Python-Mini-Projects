@@ -48,7 +48,13 @@ if d == "16":
     print("Correct answer")
     score = score + 1
 else:
-    print("Wrong answer")    
+    print("Wrong answer")
+e= input("5. How many days are there in a week? ")
+if e == "7":
+    print("Correct answer")
+    score = score + 1
+else:
+    print("Wrong answer")        
 
 
 
