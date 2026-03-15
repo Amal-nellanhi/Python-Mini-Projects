@@ -43,5 +43,12 @@ if c==programming language:
     score = score + 1
 else:
     print("Wrong answer")
+d= input("4. What is the square of 4? ")
+if d == "16":
+    print("Correct answer")
+    score = score + 1
+else:
+    print("Wrong answer")    
+
 
 
