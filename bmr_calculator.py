@@ -1,6 +1,6 @@
 """
 Project: BMR Calculator
-
+Author :Meenakshi
 Description:
 Create a program that calculates a person's Basal Metabolic Rate (BMR).
 
