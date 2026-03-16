@@ -1,6 +1,6 @@
 """
 Project: Simple Quiz Game
-Author:Revathi M
+
 Description:
 Create a simple quiz game that asks the user a few questions and calculates the score.
 
@@ -25,38 +25,17 @@ Final Score: 2/2
 """
 print("Welcome to the Quiz Game")
 score=0
-a=input("1.What is the capital of India?")
-if a.lower()=="delhi":
-    print("Correct")
-    score=score+1
-else:
-    print("wrong")
-b=input("2.What is 5+3?")
-if b=="8":
-    print("Correct")
-    score=score+1
-else:
-    print("Wrong")
-c= input("3. Is Python a programming language ? ")
-if c==programming language:
+print("\n1. What is the capital of India?")
+print("1. Mumbai")
+print("2. Delhi")
+print("3. Chennai")
+print("4. Kolkata")
+ans = input("Enter your option (1-4): ")
+if ans == "2":
     print("Correct answer")
     score = score + 1
 else:
     print("Wrong answer")
-d= input("4. What is the square of 4? ")
-if d == "16":
-    print("Correct answer")
-    score = score + 1
-else:
-    print("Wrong answer")
-e= input("5. How many days are there in a week? ")
-if e == "7":
-    print("Correct answer")
-    score = score + 1
-else:
-    print("Wrong answer")   
-print("Quiz Finished")
-print("Your final score is:", score)         
 
 
 
