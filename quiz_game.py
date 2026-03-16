@@ -46,7 +46,19 @@ if ans_1 == "3":
     print("Correct answer")
     score = score + 1
 else:
-    print("Wrong answer")    
+    print("Wrong answer")  
+print("\n3. Which of the following is used to take input from the user in Python?")
+print("1. print()")
+print("2. input()")
+print("3. read()")
+print("4. scan()")
+ans_2= input("Enter your option (1-4): ")
+
+if ans_2 == "2":
+    print("Correct answer")
+    score = score + 1
+else:
+    print("Wrong answer")      
 
 
 
