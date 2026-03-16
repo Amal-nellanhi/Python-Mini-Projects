@@ -36,6 +36,17 @@ if ans == "2":
     score = score + 1
 else:
     print("Wrong answer")
+print("\n2. What is 5 + 3?")
+print("1. 6")
+print("2. 7")
+print("3. 8")
+print("4. 9")
+ans_1 = input("Enter your option (1-4): ")
+if ans_1 == "3":
+    print("Correct answer")
+    score = score + 1
+else:
+    print("Wrong answer")    
 
 
 
