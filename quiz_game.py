@@ -69,7 +69,21 @@ if ans_3 == "3":
     print("Correct answer")
     score = score + 1
 else:
-    print("Wrong answer")         
+    print("Wrong answer") 
+print("\n5. How many days are there in a week?")
+print("1. 5")
+print("2. 6")
+print("3. 7")
+print("4. 8")
+ans_4 = input("Enter your option (1-4): ")
+if ans_4 == "3":
+    print("Correct answer")
+    score = score + 1
+else:
+    print("Wrong answer")
+
+print("\nQuiz Finished")
+print("Your final score is:", score)            
 
 
 
