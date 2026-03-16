@@ -58,7 +58,18 @@ if ans_2 == "2":
     print("Correct answer")
     score = score + 1
 else:
-    print("Wrong answer")      
+    print("Wrong answer") 
+print("\n4. What is the square of 4?")
+print("1. 8")
+print("2. 12")
+print("3. 16")
+print("4. 20")
+ans_3 = input("Enter your option (1-4): ")
+if ans_3 == "3":
+    print("Correct answer")
+    score = score + 1
+else:
+    print("Wrong answer")         
 
 
 
