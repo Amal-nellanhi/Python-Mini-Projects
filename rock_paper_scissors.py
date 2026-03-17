@@ -20,4 +20,11 @@ Choose (R/P/S): R
 You chose: Rock 🪨
 Computer chose: Scissors ✂️
 You win!
-"""
+""" 
+import random
+
+choices = {
+    'R': ("Rock", "🪨"),
+    'P': ("Paper", "📄"),
+    'S': ("Scissors", "✂️")
+}
