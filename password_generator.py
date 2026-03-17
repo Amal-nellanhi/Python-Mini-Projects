@@ -28,3 +28,4 @@ Generated Password: A7#kL9@pQ2
  for i in range(length):
    password=password+
 random.choice(characters)
+print("Generated Password:",password)
