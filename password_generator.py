@@ -1,6 +1,6 @@
 """
 Project: Password Generator
-
+Author:Ameya-govindan
 Description:
 Create a Python program that generates a random password for the user.
 
