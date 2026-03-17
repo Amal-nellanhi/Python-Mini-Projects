@@ -20,3 +20,7 @@ Enter password length: 10
 Sample Output:
 Generated Password: A7#kL9@pQ2
 """
+ import random
+ print("Password generator")
+ characters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*"
+ length=int(input("enter the password length:"))
