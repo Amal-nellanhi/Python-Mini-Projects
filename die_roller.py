@@ -29,3 +29,6 @@ if choice=="yes":
         print(random.randint(1,6))
 elif choice==no:
     print("program exited")
+else:
+    print("invalid")
+    
