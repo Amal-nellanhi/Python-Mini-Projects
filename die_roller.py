@@ -1,6 +1,6 @@
 """
 Project: Dice Roller
-Author:
+Author:Aysha Surook k
 
 Description:
 Create a program that simulates rolling dice.
@@ -22,8 +22,9 @@ Dice 1: 4
 Dice 2: 2
 Dice 3: 6
 """
+import random
 
-n=int(input(""how many dice to roll=))
+n=int(input("how many dice to roll="))
 choice=input("do you want to roll the dice:").lower()
 if choice=="yes":
     for i in range(n):
