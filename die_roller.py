@@ -1,5 +1,6 @@
 """
 Project: Dice Roller
+Author:
 
 Description:
 Create a program that simulates rolling dice.
@@ -31,4 +32,3 @@ elif choice==no:
     print("program exited")
 else:
     print("invalid")
-    
