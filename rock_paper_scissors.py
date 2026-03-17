@@ -31,22 +31,37 @@ choices = {
 
 def get_computer_choice():
     return random.choice(list(choices.keys()))
+
 def determine_winner(user, computer):
     if user == computer:
-        return "It's a tie!"
+        return "It's a tie!", None
     elif (user == 'R' and computer == 'S') or \
          (user == 'P' and computer == 'R') or \
          (user == 'S' and computer == 'P'):
-        return "You win!"
+        return "You win!", "user"
     else:
-        return "Computer wins!"
+        return "Computer wins!", "computer"
+
 def play_game():
     print("🎮 Rock-Paper-Scissors Game 🎮")
+    
+    user_score = 0
+    computer_score = 0
     
     while True:
         user_choice = input("\nChoose (R/P/S) or Q to quit: ").upper()
         
         if user_choice == 'Q':
+            print("\nFinal Scores:")
+            print(f" You: {user_score}")
+            print(f" Computer: {computer_score}")
+            
+            if user_score > computer_score:
+                print("You are the final winner!")
+            elif computer_score > user_score:
+                print("Computer is the final winner!")
+            else:
+                print("It's a final tie!")
             print("Thanks for playing! 👋")
             break
         
@@ -62,6 +77,12 @@ def play_game():
         print(f"You chose: {user_name} {user_emoji}")
         print(f"Computer chose: {comp_name} {comp_emoji}")
         
-        result = determine_winner(user_choice, computer_choice)
+        result, winner = determine_winner(user_choice, computer_choice)
         print(result)
+        
+        if winner == "user":
+            user_score += 1
+        elif winner == "computer":
+            computer_score += 1
+
 play_game()
