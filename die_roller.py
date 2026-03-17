@@ -27,3 +27,5 @@ choice=input("do you want to roll the dice:").lower()
 if choice=="yes":
     for i in range(n):
         print(random.randint(1,6))
+elif choice==no:
+    print("program exited")
