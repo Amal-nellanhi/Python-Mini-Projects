@@ -1,6 +1,6 @@
 """
 Project: Rock Paper Scissors Game
-
+author:Bhavya K
 Description:
 Create a Rock-Paper-Scissors game where the user plays against the computer.
 
