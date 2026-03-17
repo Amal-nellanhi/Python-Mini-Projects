@@ -20,4 +20,6 @@ Sample Output:
 Dice 1: 4
 Dice 2: 2
 Dice 3: 6
-"
+"""
+
+n=int(input(""how many dice to roll=))
