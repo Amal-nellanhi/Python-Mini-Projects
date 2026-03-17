@@ -24,3 +24,6 @@ Dice 3: 6
 
 n=int(input(""how many dice to roll=))
 choice=input("do you want to roll the dice:").lower()
+if choice=="yes":
+    for i in range(n):
+        print(random.randint(1,6))
