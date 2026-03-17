@@ -20,4 +20,4 @@ Sample Output:
 Dice 1: 4
 Dice 2: 2
 Dice 3: 6
-"""
+"
