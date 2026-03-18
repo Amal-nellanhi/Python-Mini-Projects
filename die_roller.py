@@ -24,12 +24,12 @@ Dice 3: 6
 """
 import random
 
-n=int(input("how many dice to roll="))
-choice=input("do you want to roll the dice:").lower()
+n=int(input("How many dice to roll: "))
+choice=input("Do you want to roll the dice? (yes/no): ").lower()
 if choice=="yes":
     for i in range(n):
-        print(random.randint(1,6))
-elif choice==no:
-    print("program exited")
+        print(f"Dice {i+1}: {random.randint(1,6)}")
+elif choice=="no":
+    print("Program exited.")
 else:
-    print("invalid")
+    print("Invalid input.")
